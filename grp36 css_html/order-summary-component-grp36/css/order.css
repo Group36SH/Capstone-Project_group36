@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    width: 100%;
+
+    background-color: var(--Pale-blue);
+    height: auto;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%); 
+}
+#main-bg{
+    background: url(../images/pattern-background-desktop.svg)no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   height: 50vh ;
+   position: relative;
+}
+.card-container{
+    width: 45%;
+    margin: auto;
+    height: auto;
+    position: absolute;
+    top: 1%;
+    left:32%;
+
+}
+.card{
+    margin: 4rem auto;
+}
+.illustration-section{
+    background: url(../images/illustration-hero.svg)no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-position: center;  
+    border-radius: 20px 20px 0 0; 
+}
+.card-txt{
+    height: auto;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+.main-txt{
+    width: 80%;
+    margin: 0 auto;
+}
+.txt{
+    text-align: center;
+    padding: 3rem 0 1rem;
+    
+}
+.txt h2, .annual-plan-txt h5{
+    color: var(--Dark-blue);
+    padding-bottom: 1.5rem;
+    font-weight: 900;
+}
+.txt p{
+    width: 75%;
+    margin: 0 auto;
+}
+.txt p, .annual-plan-txt p, .cancel-order{
+    color: var(--Desaturated-blue);
+    padding-bottom: 1rem;
+}
+.annual-plan-div{
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Very-pale-blue);
+    border-radius: 10px;
+    padding: 1.5rem 0;
+}
+.music-plan{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+}
+.change-txt a{
+    color: var(--Bright-blue);
+}
+
+.change-txt a:hover{
+    color: hsl(245deg 69% 43% / 74%);
+    text-decoration: none;
+}
+.annual-plan-txt{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+.btn-link{
+    width: 100%;
+}
+.btn{
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: var(--Bright-blue);
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(245deg 69% 43% / 74%);  
+}
+.cancel-order{
+    text-decoration: none;
+}
+.cancel-order:hover{
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
+.attribution{
+    text-align: center;
+    align-content: center;
+}
+@media (max-width: 768px) {
+    .card-container{
+        width: 80%;
+        left: 10%;
+    }
+    
+}
