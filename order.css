@@ -20,7 +20,7 @@ body{
     --Dark-blue: hsl(223, 47%, 23%); 
 }
 #main-bg{
-    background: url(../images/pattern-background-desktop.svg)no-repeat;
+    background: url(../pattern-background-desktop.svg)no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -40,7 +40,7 @@ body{
     margin: 4rem auto;
 }
 .illustration-section{
-    background: url(../images/illustration-hero.svg)no-repeat;
+    background: url(../illustration-hero.svg)no-repeat;
     background-size: cover;
     height: 250px;
     background-position: center;  
